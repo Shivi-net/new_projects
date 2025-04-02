@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+}
+img{
+    width:20%;
+    margin-top: 20px;
+}
+
+.count{
+    border:1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    gap:20px;
+    width:20%;
+    margin-left:40vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.likeBtn{
+    padding: 10px;
+    border-radius: 10px;
+    border:gray;
+    background-color: black;
+    color: white;
+}
+
+.dislikeBtn{
+    padding: 10px;
+    border-radius: 10px;
+    border:gray;
+    background-color: black;
+    color: white;
+}
