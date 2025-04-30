@@ -1,0 +1,161 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+.nav_bar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: lightgray;
+     border: 1px solid black;
+     display: flex;
+     justify-content: space-between;
+     height:12vh;
+     padding-top: 20px;
+}
+
+.logo{
+    text-decoration: none;
+    color:black;
+    display: block;
+    font-size: 2.5rem;
+    padding-left: 10px;
+}
+ 
+.nav_item{
+    
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.navbar_item{
+   padding-right: 10px;
+}
+.navbar_item:hover{
+    font-weight: bolder;
+}
+
+.navbar_item a{
+    text-decoration: underline;
+    color: black;
+}
+
+
+ /* Footer  */
+
+ .footer_container{
+    background-color: lightgray;
+    text-align: center;
+    padding: 30px;   
+    margin-top: 20px;
+ }
+
+ .footer_container p{
+    margin-top: 10px;
+ }
+
+ /* home page */
+
+ .container{
+    margin-top:100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+ }
+ .box:hover{
+    border: 10px solid lightgrey;
+ }
+
+ .box{
+    border:1px solid lightgray;
+    border-radius:5%;
+    width:20vw;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding:5%;
+ }
+
+ .img img{
+    border:none;
+    border-radius: 10%;
+    width:20vw;
+    margin-bottom: 10px;
+ }
+
+ .img img:hover{
+    border: 2px solid gold;
+ }
+
+ .heading p{
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+/* Misinformation Page */
+ h1{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 150px;
+ }
+
+.content_image{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content{
+    margin-bottom: 10px;
+}
+
+ .Misinfo_box img{
+    margin-top: 20px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+ }
+
+ .misinfo_content{
+    margin-left: 20px;
+    font-size: 1.2rem;
+ }
+ ul{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ 
+ /* bluePrint Page */
+
+ .blueprint-image{
+    text-align: center;
+ }
+
+ .blueprint-image img{
+    width:50%;
+ }
+
+ .blueprint-content{
+    margin-left:20px ;
+ }
+ .blueprint-content li{
+    font-weight: bold;
+    margin-top: 20px;
+ }
+
+ /*  */
+ .content-1{
+    margin-left: 20px;
+ }
+ .question{
+    font-weight: bold;
+ }
