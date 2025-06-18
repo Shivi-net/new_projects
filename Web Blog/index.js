@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 
 const app = express();
 const port = 3000;
-
+const lastId = 5;
 app.use(bodyParser.urlencoded ( {extended: true}))
 
 app.use(express.static("public"))
@@ -35,6 +35,11 @@ app.get("/devops", (req,res) => {
 
 app.get("/learn", (req,res) => {
     res.render("learn.ejs")
+})
+
+// Delete a post
+app.delete("/", (req,res) => {
+
 })
 app.listen( port, () => {
     console.log(`listening to port ${port}`)
